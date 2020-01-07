@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="k-webkit k-webkit54">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Respuesta de solicitud</title>
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" media="all">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.0/css/bootstrap-select.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/validation.engine/2.6.4/css/validationEngine.jquery.css" rel="stylesheet">
+      <link href="css/site.css" rel="stylesheet">
+      <link href="css/styles.css" rel="stylesheet">
+      <!--[if IE 9]>
+      <script src="//banlinea-cdn.azureedge.net/libs/html5shiv/v3.7.3/html5shiv.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/Content/css/ie.css" />
+      <![endif]-->
+   </head>
+   <body>
+   <!-- ****************************************************************************************************************************************************************************************************** 
+
+SECCIÓN MODIFICABLE: PAGINA DE RESPUESTA "Esta pagina sigue las misma estructura que los términos y condiciones,las clases son las mismas y se pueden manipular de la misma forma" http://www.screencast.com/t/WtQlUCfav2eK
+
+****************************************************************************************************************************************************************************************************** -->
+      <div class="body-content">
+         <header class="header"></header>
+         <div class="container">
+            <div class="step-content">
+               <div class="linea-step">
+                  <div class="col-xs-12 col-sm-6 desc-step">
+                     <p>Título o descripción</p>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 li-step">
+                     <a title="Imprimir" class="icon-print cont-print" href="#" onclick="PrintElement($(#terms-and-conditions))">
+                     </a>
+                  </div>
+                  <div style="clear: both"></div>
+               </div>
+               <div class="conts">
+                  <div class="contents aproved">
+                     <p><strong>Bogotá, miércoles, 23 de noviembre de 2016</strong></p>
+                     <p><strong>Consecutivo No: </strong> <span class="color-one">TMJTS3</span></p>
+                     <p><strong>Señor(a) Nombre de usuario</strong></p>
+                     <p><strong>Asunto:</strong> Solicitud de Cuenta de Ahorros</p>
+                     <p>
+                        Tu solicitud ha sido <strong>APROBADA</strong>, dentro de las próximas treinta y seis <strong>(36)</strong> horas te contactaremos vía telefónica para coordinar la entrega de tu Tarjeta Débito en tu domicilio y así finalizar el trámite de la legalización de tu cuenta. Recuerda tener a la mano el original de tu documento de identidad y una copia del mismo ampliado al 150%.
+                     </p>
+                     <hr>
+                     
+                  </div>
+                  <div class="botons">
+                     <div class="col-xs-12 col-sm-6 print">
+                        <a href="#" class="btn btn-print pull-right prtn" onclick="">
+                        Imprimir
+                        </a>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 print">
+                        <button class="btn btn-form acepto" id="myBtn" data-toggle="modal" data-target="#myModal">
+                        Enviar <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                        </button>
+                     </div>
+                  </div>
+                  <div style="clear: both"></div>
+               </div>
+            </div>
+
+
+<!-- ****************************************************************************************************************************************************************************************************** 
+                                                                                                       MODAL FINALIZAR SOLICITUD 
+               
+****************************************************************************************************************************************************************************************************** -->
+
+            <div class="container">
+               <!-- Modal -->
+               <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                     <!-- Modal content-->
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal">×</button>
+                           <h4>SOLICITUD FINALIZADA</h4>
+                           <h6>Número de Solicitud: <span>TMJTS3</span></h6>
+                        </div>
+                        <div class="modal-body aprovedd">
+                           <p><span class="color-one">Entidad</span> te infoma que has finalizado el proceso de solicitud de
+                              <span class="color-one">“Tu producto”,</span>
+                              <strong>hemos enviado copia de la información al correo electrónico registrado</strong> <span>“example@gmail.com”</span>.
+                           </p>
+                           <p><strong>A continuación puedes  dar clic al botón rojo para volver.</strong></p>
+                        </div>
+                        <div class="modal-footer">
+                           <a href=""><button class="btn btn-form terminar" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Terminar</button></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <footer class="footer-content"></footer>
+       
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+         <script src="https://banlinea-cdn.azureedge.net/libs/jquery.livequery/v1.3.6/jquery.livequery.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/validation.engine/2.6.4/jquery.validationEngine.js"></script>
+         <script src="https://cdn.jsdelivr.net/validation.engine/2.6.4/languages/jquery.validationEngine-es.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.0/js/bootstrap-select.min.js"></script>
+         <script type="text/javascript">
+            $(document).ready(function() {
+                
+                    $("header").load('Header.html');
+                    $("footer").load('Footer.html');
+               
+            });
+         </script>
+      </div>
+   </body>
+</html>
